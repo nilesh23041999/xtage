@@ -1,0 +1,35 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Environment variables
+.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Misc
+.DS_Store
+*.bak
+*.tmp
